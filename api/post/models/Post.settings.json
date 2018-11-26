@@ -12,8 +12,7 @@
     "title": {
       "default": "",
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
     },
     "excerpt": {
       "default": "",
@@ -47,6 +46,10 @@
     "tags": {
       "collection": "tags",
       "via": "posts"
+    },
+    "metaTitle": {
+      "default": "",
+      "type": "string"
     },
     "metaKeywords": {
       "default": "",
