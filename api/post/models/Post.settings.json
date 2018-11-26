@@ -1,0 +1,60 @@
+{
+  "connection": "default",
+  "collectionName": "post",
+  "info": {
+    "name": "post",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "excerpt": {
+      "default": "",
+      "type": "text"
+    },
+    "body": {
+      "default": "",
+      "type": "text",
+      "required": true
+    },
+    "published": {
+      "default": "",
+      "type": "date"
+    },
+    "author": {
+      "model": "user",
+      "via": "posts",
+      "plugin": "users-permissions"
+    },
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "categories": {
+      "collection": "category",
+      "via": "posts",
+      "dominant": true
+    },
+    "tags": {
+      "collection": "tags",
+      "via": "posts"
+    },
+    "metaKeywords": {
+      "default": "",
+      "type": "string"
+    },
+    "metaDescription": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}

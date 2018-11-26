@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "category",
+  "info": {
+    "name": "category",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "posts": {
+      "collection": "post",
+      "via": "categories"
+    }
+  }
+}

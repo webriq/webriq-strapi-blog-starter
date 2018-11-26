@@ -1,0 +1,48 @@
+{
+  "connection": "default",
+  "collectionName": "profile",
+  "info": {
+    "name": "profile",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "firstname": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "bio": {
+      "default": "",
+      "type": "text"
+    },
+    "facebook": {
+      "default": "",
+      "type": "string"
+    },
+    "twitter": {
+      "default": "",
+      "type": "string"
+    },
+    "instagram": {
+      "default": "",
+      "type": "string"
+    },
+    "linkedin": {
+      "default": "",
+      "type": "string"
+    },
+    "user": {
+      "model": "user",
+      "via": "profile",
+      "plugin": "users-permissions"
+    }
+  }
+}

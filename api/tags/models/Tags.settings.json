@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "tags",
+  "info": {
+    "name": "tags",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "posts": {
+      "collection": "post",
+      "dominant": true,
+      "via": "tags"
+    }
+  }
+}
