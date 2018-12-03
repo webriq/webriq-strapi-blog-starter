@@ -30,14 +30,14 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "react-ga": "^2.4.1",
-    "remove-markdown": "^0.2.2",
-    "shelljs": "^0.7.8"
+    "react-ga": "2.5.6",
+    "remove-markdown": "0.2.2",
+    "shelljs": "0.7.8"
   },
   "deprecated": false,
   "description": "Strapi Admin",
   "devDependencies": {
-    "sanitize.css": "^4.1.0",
+    "sanitize.css": "4.1.0",
     "strapi-helper-plugin": "3.0.0-alpha.14.5",
     "strapi-utils": "3.0.0-alpha.14.5"
   },
