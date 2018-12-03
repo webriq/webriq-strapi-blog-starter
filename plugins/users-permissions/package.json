@@ -32,14 +32,14 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "grant-koa": "^3.8.1",
-    "jsonwebtoken": "^8.1.0",
-    "koa": "^2.1.0",
-    "koa2-ratelimit": "^0.6.1",
-    "purest": "^2.0.1",
-    "request": "^2.83.0",
-    "uuid": "^3.1.0"
+    "bcryptjs": "2.4.3",
+    "grant-koa": "3.8.2",
+    "jsonwebtoken": "8.4.0",
+    "koa": "2.6.2",
+    "koa2-ratelimit": "0.6.3",
+    "purest": "2.0.1",
+    "request": "2.88.0",
+    "uuid": "3.3.2"
   },
   "deprecated": false,
   "description": "Protect your API with a full-authentication process based on JWT",
