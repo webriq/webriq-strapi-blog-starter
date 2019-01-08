@@ -11,8 +11,7 @@
   "attributes": {
     "title": {
       "default": "",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "excerpt": {
       "default": "",
@@ -20,8 +19,7 @@
     },
     "body": {
       "default": "",
-      "type": "text",
-      "required": true
+      "type": "text"
     },
     "published": {
       "default": "",
@@ -58,6 +56,19 @@
     "metaDescription": {
       "default": "",
       "type": "text"
+    },
+    "status": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "published",
+        "unpublished"
+      ]
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
     }
   }
 }

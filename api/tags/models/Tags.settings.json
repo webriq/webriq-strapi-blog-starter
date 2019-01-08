@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "tags",
+  "collectionName": "",
   "info": {
     "name": "tags",
     "description": ""
@@ -11,9 +11,7 @@
   "attributes": {
     "name": {
       "default": "",
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "string"
     },
     "description": {
       "default": "",
