@@ -65,10 +65,6 @@
         "published",
         "unpublished"
       ]
-    },
-    "slug": {
-      "default": "",
-      "type": "string"
     }
   }
 }
