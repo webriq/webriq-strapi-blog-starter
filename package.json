@@ -1,5 +1,5 @@
 {
-  "name": "strapi-api",
+  "name": "webriq-strapialpha18-blog-starter",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application.",
@@ -21,29 +21,30 @@
   "dependencies": {
     "axios": "^0.18.0",
     "lodash": "^4.17.5",
-    "strapi": "^3.0.0-alpha.15",
-    "strapi-hook-mongoose": "3.0.0-alpha.15",
+    "request": "^2.88.0",
+    "strapi": "^3.0.0-alpha.19",
+    "strapi-hook-mongoose": "3.0.0-alpha.18",
     "strapi-provider-upload-cloudinary": "^3.0.0-alpha.15"
   },
   "author": {
-    "name": "dorelljames",
+    "name": "allen",
     "email": "",
     "url": ""
   },
   "maintainers": [
     {
-      "name": "dorelljames",
+      "name": "allen",
       "email": "",
       "url": ""
     }
   ],
   "strapi": {
     "packageManager": "npm",
-    "uuid": "3be56ff6-3ad0-48ab-87bf-71083890c413"
+    "uuid": "2a147d55-ef4a-4d44-8cfc-5e93c2f91569"
   },
   "engines": {
-    "node": ">= 9.0.0",
-    "npm": ">= 5.0.0"
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
   },
   "license": "MIT"
 }

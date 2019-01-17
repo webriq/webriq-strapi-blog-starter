@@ -1,3 +1,3 @@
-# strapi-api
+# webriq-strapialpha18-blog-starter
 
-A quick description of strapi-api.
+A quick description of webriq-strapialpha18-blog-starter.

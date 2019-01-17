@@ -11,13 +11,11 @@
   "attributes": {
     "firstname": {
       "default": "",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "lastname": {
       "default": "",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "bio": {
       "default": "",

@@ -21,8 +21,8 @@
     },
     "posts": {
       "collection": "post",
-      "dominant": true,
-      "via": "tags"
+      "via": "tags",
+      "dominant": true
     }
   }
 }

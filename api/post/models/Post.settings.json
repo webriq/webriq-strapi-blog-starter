@@ -58,6 +58,15 @@
     "metaDescription": {
       "default": "",
       "type": "text"
+    },
+    "status": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "published",
+        "unpublished"
+      ]
     }
   }
 }
