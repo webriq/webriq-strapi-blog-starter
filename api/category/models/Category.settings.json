@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "category",
   "info": {
     "name": "category",
     "description": ""
@@ -11,7 +11,8 @@
   "attributes": {
     "name": {
       "default": "",
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "default": "",

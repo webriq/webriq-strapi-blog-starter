@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "tags",
   "info": {
     "name": "tags",
     "description": ""
@@ -11,7 +11,9 @@
   "attributes": {
     "name": {
       "default": "",
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "description": {
       "default": "",
@@ -19,8 +21,8 @@
     },
     "posts": {
       "collection": "post",
-      "dominant": true,
-      "via": "tags"
+      "via": "tags",
+      "dominant": true
     }
   }
 }

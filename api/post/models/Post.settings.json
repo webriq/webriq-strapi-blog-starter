@@ -11,7 +11,8 @@
   "attributes": {
     "title": {
       "default": "",
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "excerpt": {
       "default": "",
@@ -19,7 +20,8 @@
     },
     "body": {
       "default": "",
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "published": {
       "default": "",

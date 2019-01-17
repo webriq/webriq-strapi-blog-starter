@@ -57,5 +57,6 @@
       "model": "profile",
       "via": "user"
     }
-  }
+  },
+  "collectionName": "users-permissions_user"
 }
