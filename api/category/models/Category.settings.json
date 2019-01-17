@@ -12,8 +12,7 @@
     "name": {
       "default": "",
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
     },
     "description": {
       "default": "",
