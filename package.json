@@ -23,7 +23,7 @@
     "lodash": "^4.17.5",
     "request": "^2.88.0",
     "strapi": "^3.0.0-alpha.19",
-    "strapi-hook-mongoose": "3.0.0-alpha.18",
+    "strapi-hook-mongoose": "3.0.0-alpha.25.2",
     "strapi-provider-upload-cloudinary": "^3.0.0-alpha.15"
   },
   "author": {
