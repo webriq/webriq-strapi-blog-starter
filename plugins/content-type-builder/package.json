@@ -35,7 +35,7 @@
     "immutable": "^3.8.2",
     "pluralize": "^7.0.0",
     "strapi-generate": "3.0.0-alpha.19",
-    "strapi-generate-api": "3.0.0-alpha.19"
+    "strapi-generate-api": "3.0.0-alpha.25.2"
   },
   "deprecated": false,
   "description": "Strapi plugin to create content type (API).",
