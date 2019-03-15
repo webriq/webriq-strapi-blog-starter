@@ -32,7 +32,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "strapi-provider-email-sendmail": "3.0.0-alpha.19"
+    "strapi-provider-email-sendmail": "3.0.0-alpha.25.2"
   },
   "deprecated": false,
   "description": "This is the description of the plugin.",
