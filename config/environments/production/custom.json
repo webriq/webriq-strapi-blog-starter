@@ -1,3 +1,4 @@
 {
-  "myCustomConfiguration": "This configuration is accessible through strapi.config.environments.production.myCustomConfiguration"
+  "myCustomConfiguration": "This configuration is accessible through strapi.config.environments.production.myCustomConfiguration",
+  "staticWebsiteBuildURL": "${process.env.WEBSITE_BUILD_URL || 'http://281376e8.ngrok.io'}"
 }
